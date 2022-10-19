@@ -30,6 +30,6 @@
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
    social:hasSpiritAnimal dbr:Owl ;
    social:hasFavouritePlatonicSolid dbr:Regular_icosahedron ;
-   social:likesMovie dbr:Avengers:_Endgame , dbr:Avengers:_Infinity_War , dbr:Seven_(1995_film) , dbr:Captain_America:_Civil_War , dbr:Iron_Man_2 ;
+   social:likesMovie dbr:Iron_Man , dbr:Iron_Man_2 ;
    foaf:myersBriggs "INFJ" ;
    foaf:nick "big_c68" .
