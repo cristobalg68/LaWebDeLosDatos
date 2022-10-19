@@ -14,7 +14,6 @@
    dc:date "2022-10-19"^^xsd:date ;
    dc:title "Cristobal's FOAF Profile"@en ;
    foaf:primaryTopic <#cg> ;
-   
    dc:creator <#cg> .
 
 <#cg> a foaf:Person ;
