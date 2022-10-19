@@ -14,7 +14,7 @@
    dc:date "2022-10-19"^^xsd:date ;
    dc:title "Cristobal's FOAF Profile"@en ;
    foaf:primaryTopic <#cg> ;
-   foaf:homepage <http://www.linkedin.com/in/cristobalsgf> ;
+   
    dc:creator <#cg> .
 
 <#cg> a foaf:Person ;
@@ -24,6 +24,7 @@
    foaf:givenName "Cristobal" ;
    foaf:familyName "Guerra" ;
    foaf:age 23 ; 
+   foaf:homepage <http://www.linkedin.com/in/cristobalsgf> ;
    foaf:img <http://raw.githubusercontent.com/cristobalg68/LaWebDeLosDatos/53b367ae700fda2ab5ab2f11888ee5a911bf8426/nj0vcdfcwfy81.png> ;
    foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl> , <http://anakena.dcc.uchile.cl/~pberrios/Watos/foaf.ttl> , <http://anakena.dcc.uchile.cl/~elmoreno/foaf.ttl> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl>;
    foaf:interest dbr:Semantic_Web , dbr:Robot , dbr:Artificial_intelligence ; 
