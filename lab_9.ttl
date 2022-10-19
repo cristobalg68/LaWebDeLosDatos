@@ -1,5 +1,3 @@
-# Q1
-
 @base <http://raw.githubusercontent.com/cristobalg68/LaWebDeLosDatos/main/lab_9.ttl> .
 
 @prefix cg: <http://raw.githubusercontent.com/cristobalg68/LaWebDeLosDatos/main/lab_9.ttl#> .
