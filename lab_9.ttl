@@ -1,0 +1,37 @@
+# Q1
+
+@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+
+@prefix ah: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2022-10-19"^^xsd:date ;
+   dc:title "Cristobal's FOAF Profile"@en ;
+   foaf:primaryTopic <#cg> ;
+   dc:creator <#cg> .
+
+<#cg> a foaf:Person ;
+   rdfs:label "Cristobal Guerra" ;
+   rdfs:comment "Student of the DIE"@es , "Estudiante del DIE"@es ;
+   foaf:name "Cristobal Guerra" ;
+   foaf:givenName "Cristobal" ;
+   foaf:familyName "Guerra" ;
+   foaf:age 23 ; 
+   foaf:img <http://aidanhogan.com/img/me-sp.png> ;
+   foaf:homepage <www.linkedin.com/in/cristobalsgf> ;
+   foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <> , <> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me>;
+   foaf:interest dbr:Semantic_Web , dbr:Robot , dbr:Artificial_intelligence ; 
+   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
+   social:hasSpiritAnimal dbr:Owl ;
+   social:hasFavouritePlatonicSolid dbr:Regular_icosahedron ;
+   social:likesMovie dbr:Avengers:_Endgame , dbr:Avengers:_Infinity_War , dbr:Seven_(1995_film) , dbr:Captain_America:_Civil_War , dbr:Iron_Man_2 ;
+   foaf:myersBriggs "INFJ" ;
+   foaf:nick "big_c68" .
