@@ -23,7 +23,7 @@
    foaf:givenName "Cristobal" ;
    foaf:familyName "Guerra" ;
    foaf:age 23 ; 
-   foaf:img <http://aidanhogan.com/img/me-sp.png> ;
+   foaf:img <http://raw.githubusercontent.com/cristobalg68/LaWebDeLosDatos/53b367ae700fda2ab5ab2f11888ee5a911bf8426/nj0vcdfcwfy81.png> ;
    foaf:homepage <www.linkedin.com/in/cristobalsgf> ;
    foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> , <> , <> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me>;
    foaf:interest dbr:Semantic_Web , dbr:Robot , dbr:Artificial_intelligence ; 
